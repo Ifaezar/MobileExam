@@ -17,8 +17,8 @@ export default (props) => {
 
     return (
         <View style={styles.container}>
-            <Image source={{ uri: RestaurantCardDetail.image }} style={{ width: width - 50, height: width - 50 }} />
             <Text>{RestaurantCardDetail.restaurantName}</Text>
+            <Image source={{ uri: RestaurantCardDetail.image }} style={{ width: width - 50, height: width - 50 }} />
             <Text>Rating : {RestaurantCardDetail.rating} </Text>
             <Text>Address : {RestaurantCardDetail.address}</Text>
             <Text>Cuisines : {RestaurantCardDetail.cuisine}</Text>
